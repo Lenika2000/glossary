@@ -1,0 +1,164 @@
+{
+  "nodes": [
+    {
+      "id": "rendering",
+      "label": "Рендеринг"
+    }, {
+      "id": "ssr",
+      "label": "Серверный рендеринг"
+    }, {
+      "id": "csr",
+      "label": "Клиентский рендеринг"
+    }, {
+      "id": "seo",
+      "label": "SEO"
+    }, {
+      "id": "metrics",
+      "label": "Метрики производительности рендеринга"
+    }, {
+      "id": "FCP",
+      "label": "First Contentful Paint"
+    }, {
+      "id": "LCP",
+      "label": "Largest Contentful Paint"
+    }, {
+      "id": "TBT",
+      "label": "Total Blocking Time"
+    }, {
+      "id": "TTI",
+      "label": "Time to Interactive"
+    }, {
+      "id": "chrome",
+      "label": "ChromeDevTools"
+    }, {
+      "id": "WebPageTest",
+      "label": "WebPageTest"
+    }, {
+      "id": "PageSpeedInsight",
+      "label": "Page Speed Insight"
+    }, {
+      "id": "prerendering",
+      "label": "Пререндеринг"
+    }, {
+      "id": "hydration",
+      "label": "Гидратация"
+    }, {
+      "id": "nonDestructiveHydration",
+      "label": "Неразрушающая гидратация"
+    }, {
+      "id": "renderingByRequest",
+      "label": "Рендеринг по запросу"
+    }, {
+      "id": "staticRendering",
+      "label": "Статический рендеринг"
+    }, {
+      "id": "AngularUniversal",
+      "label": "Angular Universal"
+    }, {
+      "id": "SPA",
+      "label": "SPA"
+    }, {
+      "id": "Angular",
+      "label": "Angular"
+    }
+  ],
+  "links":[
+    {
+      "id": "a1",
+      "source": "rendering",
+      "target": "ssr",
+      "label": "подразделяется на"
+    }, {
+      "id": "a2",
+      "source": "rendering",
+      "target": "csr",
+      "label": "подразделяется на"
+    }, {
+      "id": "a3",
+      "source": "rendering",
+      "target": "seo",
+      "label": "влияет на"
+    }, {
+      "id": "a4",
+      "source": "metrics",
+      "target": "rendering",
+      "label": "характеризуют"
+    }, {
+      "id": "a5",
+      "source": "metrics",
+      "target": "FCP",
+      "label": "включают в себя"
+    }, {
+      "id": "a6",
+      "source": "metrics",
+      "target": "LCP",
+      "label": "включают в себя"
+    }, {
+      "id": "a7",
+      "source": "metrics",
+      "target": "TBT",
+      "label": "включают в себя"
+    }, {
+      "id": "a8",
+      "source": "metrics",
+      "target": "TTI",
+      "label": "включают в себя"
+    },
+    {
+      "id": "a9",
+      "source": "metrics",
+      "target": "chrome",
+      "label": "измеряются с помощью"
+    }, {
+      "id": "a10",
+      "source": "metrics",
+      "target": "WebPageTest",
+      "label": "измеряются с помощью"
+    }, {
+      "id": "a11",
+      "source": "metrics",
+      "target": "PageSpeedInsight",
+      "label": "измеряются с помощью"
+    }, {
+      "id": "a12",
+      "source": "prerendering",
+      "target": "ssr",
+      "label": "одна из технологий"
+    }, {
+      "id": "a13",
+      "source": "ssr",
+      "target": "hydration",
+      "label": "включает в себя"
+    }, {
+      "id": "a14",
+      "source": "nonDestructiveHydration",
+      "target": "hydration",
+      "label": "является подтипом"
+    }, {
+      "id": "a15",
+      "source": "ssr",
+      "target": "renderingByRequest",
+      "label": "подразделяется на"
+    }, {
+      "id": "a16",
+      "source": "ssr",
+      "target": "staticRendering",
+      "label": "подразделяется на"
+    }, {
+      "id": "a17",
+      "source": "AngularUniversal",
+      "target": "ssr",
+      "label": "реализует"
+    }, {
+      "id": "a18",
+      "source": "SPA",
+      "target": "csr",
+      "label": "реализует"
+    }, {
+      "id": "a19",
+      "source": "Angular",
+      "target": "SPA",
+      "label": "фреймворк для создания"
+    }
+  ]
+}
